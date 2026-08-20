@@ -622,7 +622,8 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
-  margin-top: 26px;
+  margin-top: auto;
+  padding-top: 26px;
 }
 
 .area-photo {
@@ -658,7 +659,7 @@ h3 {
 }
 
 .card-tag {
-  margin-top: auto;
+  margin-top: 0;
   padding-top: 26px;
   color: var(--muted-strong);
   font-size: 0.68rem;
@@ -1110,11 +1111,7 @@ body.lightbox-open {
 }
 
 .lightbox-caption {
-  width: 100%;
-  margin-top: 18px;
-  color: var(--muted-strong);
-  font-size: 0.82rem;
-  text-align: center;
+  display: none;
 }
 
 .lightbox-close,
